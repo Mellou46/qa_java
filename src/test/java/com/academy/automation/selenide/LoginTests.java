@@ -12,7 +12,7 @@ import org.testng.annotations.*;
 public class LoginTests {
     @BeforeClass
     public void setUp() {
-        Configuration.browser = "chrome";
+        Configuration.browser = "edge";
         Configuration.baseUrl = "http://automationpractice.com/index.php";
         Configuration.startMaximized = true;
         Configuration.headless = false;
