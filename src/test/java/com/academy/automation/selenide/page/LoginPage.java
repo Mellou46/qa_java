@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import static com.codeborne.selenide.Selenide.page;
 
 public class LoginPage {
-    @FindBy(id="email")
+    @FindBy(id="email1")
     private SelenideElement emailField;
 
     @FindBy(id="passwd")
