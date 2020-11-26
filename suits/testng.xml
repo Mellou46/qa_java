@@ -6,7 +6,7 @@
     <test name="Woman Page Tests">
         <parameter name="browser" value="edge"/>
         <classes>
-            <class name="com.academy.automation.selenide.LoginTests" />
+            <class name="com.academy.automation.LoginTests" />
         </classes>
     </test>
 <!--    <test name="Login Tests">-->
