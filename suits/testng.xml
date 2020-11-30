@@ -4,7 +4,7 @@
 
 <suite name="Base Suite">
     <test name="Woman Page Tests">
-        <parameter name="browser" value="edge"/>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.academy.automation.LoginTests" />
         </classes>
